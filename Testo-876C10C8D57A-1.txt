@@ -1,0 +1,114 @@
+print ("Devo andare a fare la spesa")
+print ("Prendo tutto ciò che mi occorre")
+soldi_disponibili = "50 Euro"
+print ("Mi rendo conto che ho", soldi_disponibili)
+lista_della_spesa = "Caffé, Bicchieri, Piatti, Svelto,Latte."
+print ("prendo tutto ciò che ho scritto nella lista, ovvero",lista_della_spesa)
+print ("Mi dirigo alla cassa per poter pagare tutto ciò che ho preso")
+prezzi = "Caffé 4.50, Bicchieri 1.50,Piatti 2.30,  Svelto 1.30, Latte 1.69."
+print ("Mentre la cassiera mi passa la merce controllo anche i prezzi",prezzi)
+totale_prezzo = round (4.50 +1.50 +2.30 +1.30 +1.40)
+print ("E' arrivata l'ora di pagare, il totale è di",totale_prezzo)
+print ("Le do i miei", soldi_disponibili)
+resto = (50-11)
+print ("Avendo il resto di", resto)
+print ("Saluto, ringrazio e me ne vado a casa")
+
+
+
+print ("Devo fare benzina")
+print ("Mi reco al serbatoio")
+soldi_disponibili = "30 Euro"
+print ("Devo mettere", soldi_disponibili)
+print ("Prendo la pompa e metto la benzina")
+print ("Mi dirigo alla cassa per pagare")
+print ("Le do i",soldi_disponibili)
+print ("Saluto, ringrazio e me ne vado a casa")
+
+
+
+print ("Ho voglia di uno snack")
+print ("Mi reco al distributore")
+soldi_disponibili = "2 Euro"
+snack = "Bustina di Cipster"
+print ("Ho voglia di una", snack)
+costo = "1 Euro"
+print ("Controllo il prezzo, noto che il costo è di",costo)
+print ("Metto i miei", soldi_disponibili)
+codice = "37A"
+print ("Digito il codice",codice)
+print("Ritiro la mia", snack)
+print ("La mangio e torno a lavorare")
+
+
+
+Str1 = ("25 Studenti")
+Str2 = ("Arrivano altri 3 Studenti")
+#Studenti attuali
+Studenti = (25)
+#Successivamente ne arrivano altri
+Nuovi_arrivati = (3)
+#Ora sommiamo il tutto per ottenere gli studenti totali 
+print(Studenti + Nuovi_arrivati)
+
+
+
+nome_scuola = "Epicode"
+print (nome_scuola)
+
+
+X = (10)
+X_1 = (10+2)
+print (X_1)
+X_2 = (X_1*3)
+print (X_2)
+
+
+
+str1 = "Windows" 
+str2 = "Excel" 
+str3 = "Powerpoint" 
+str4 = "Word"
+
+print ( len (str1) )
+print ( len (str2) )
+print ( len (str3) )
+print ( len (str4) )
+
+
+
+#Secondi in un anno non bisestile
+secondi_in_un_anno = 365 * 24 * 60 * 60
+print ("Ci sono",secondi_in_un_anno,"in un anno bisestile")
+
+
+
+my_string = "I am studying Python"
+my_string_upper = my_string.upper ()
+print (my_string_upper)
+
+my_string = "I am studying Python"
+my_string_lower = my_string.lower ()
+print (my_string_lower)
+
+my_string_replace = my_string.replace("Python", "a lot")
+print(my_string_replace)
+
+my_string_strip = my_string.strip()
+print(my_string_strip)
+
+my_string_split = my_string.split()
+print(my_string_split)
+
+
+
+
+studenti = ["Alex", "Bob", "Cindy", "Dan", "Emma", "Faith", "Grace", "Henry"]
+corsi = ["Cybersecurity", "Data Analyst", "Backend", "Frontend", "Data Analyst", "Backend"]
+
+# Aggiungiamo i dati mancanti
+corsi.append("Frontend")  # per Grace
+corsi.append("Cybersecurity")  # per Henry
+
+# Stampiamo gli studenti e i corsi corrispondenti
+for studente, corso in zip(studenti, corsi):
